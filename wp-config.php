@@ -58,8 +58,9 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 if ($connectstr_sslconnect=='true')
+{
     define('MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL);
-
+}
 /**#@+
  * Authentication unique keys and salts.
  *
