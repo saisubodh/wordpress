@@ -57,7 +57,7 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
-if ($connectstr_sslconnect=='true')
+if ($connectstr_sslconnect==='true')
 {
     define('MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL);
 }
